@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👨‍💻 Portfolio Saya
 
-## Getting Started
+Halo! Selamat datang di repositori portfolio web saya.
 
-First, run the development server:
+## 🙋‍♂️ Tentang Saya
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Perkenalkan nama saya **Prayoga Majasta Mahendra**. Saya adalah seorang pelajar yang duduk di kelas 11 dan bersekolah di **SMK Negeri 8 Malang**. 
+Saat ini, saya sedang fokus mempelajari dan menekuni jurusan **Rekayasa Perangkat Lunak (RPL)**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Hobi**: Membaca komik dan light novel.
+- **Tempat Tinggal**: Jl. Dorowati Utara, Desa Mulyoarjo RT 01 RW 13, Kecamatan Lawang, Kabupaten Malang.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Teknologi yang Digunakan
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Portfolio ini dibangun menggunakan teknologi web modern:
 
-## Learn More
+- **Framework**: [Next.js](https://nextjs.org/) (React 19)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Bahasa Pemrograman**: [TypeScript](https://www.typescriptlang.org/)
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Cara Menjalankan Project Lokal
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Jika Anda ingin mencoba menjalankan project ini secara lokal, ikuti langkah-langkah berikut:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Pastikan Anda sudah menginstal Node.js di komputer Anda.
+2. Clone repositori ini atau download source code-nya.
+3. Buka terminal dan masuk ke direktori project (`portofolio`).
+4. Install semua dependensi yang dibutuhkan:
+   ```bash
+   npm install
+   ```
+5. Jalankan server mode development:
+   ```bash
+   npm run dev
+   ```
+6. Buka browser dan kunjungi `http://localhost:3000` untuk melihat hasilnya.
 
-## Deploy on Vercel
+## 📁 Direktori Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `app/` - Direktori yang berisi routing halaman Next.js.
+- `components/` - Direktori tempat komponen UI React disimpan.
+- `public/` - Direktori untuk aset statis seperti gambar profil dan CV.
