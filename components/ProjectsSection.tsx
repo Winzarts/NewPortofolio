@@ -1,45 +1,65 @@
 import { ProjectCard } from "./ProjectCard";
 
 const projects = [
-  { 
-    title: "Mangaku", 
+  {
+    title: "Mangaku",
     url: "https://github.com/Winzarts/MangakuApp",
-    description: "Mangaku adalah aplikasi baca komik manga, manhwa, dan manhua yang dibangun dengan Flutter. Aplikasi ini memungkinkan pengguna untuk mencari, membookmark, dan membaca berbagai komik manga, manhwa, dan manhua secara native di perangkat mereka."
+    description:
+      "Mangaku adalah aplikasi baca komik manga, manhwa, dan manhua yang dibangun dengan Flutter. Aplikasi ini memungkinkan pengguna untuk mencari, membookmark, dan membaca berbagai komik manga, manhwa, dan manhua secara native di perangkat mereka.",
   },
-  { 
-    title: "SiPina", 
+  {
+    title: "SiPina",
     url: "https://github.com/Winzarts/SiPina",
-    description: "SiPina (Si Peminjaman Sarana dan Prasarana) adalah antarmuka web modern yang dibangun menggunakan Next.js untuk sistem manajemen inventaris sekolah. Dashboard ini memungkinkan petugas dan admin untuk mengelola data barang, memantau peminjaman, dan melihat statistik secara real-time."
+    description:
+      "SiPina (Si Peminjaman Sarana dan Prasarana) adalah antarmuka web modern yang dibangun menggunakan Next.js untuk sistem manajemen inventaris sekolah. Dashboard ini memungkinkan petugas dan admin untuk mengelola data barang, memantau peminjaman, dan melihat statistik secara real-time.",
   },
-  { 
-    title: "Vehicle Booking System", 
+  {
+    title: "Vehicle Booking System",
     url: "https://github.com/Winzarts/vehicle_booking_system",
-    description: "Aplikasi web untuk mengelola dan memantau pemesanan kendaraan operasional di lingkungan perusahaan pertambangan nikel."
+    description:
+      "Aplikasi web untuk mengelola dan memantau pemesanan kendaraan operasional di lingkungan perusahaan pertambangan nikel.",
   },
-  { 
-    title: "UKTapp", 
+  {
+    title: "UKTapp",
     url: "https://github.com/Winzarts/UKTapp",
-    description: "Univ adalah aplikasi solusi digital untuk mahasiswa dalam mengelola dan memantau kewajiban pembayaran Uang Kuliah Tunggal (UKT)."
+    description:
+      "Univ adalah aplikasi solusi digital untuk mahasiswa dalam mengelola dan memantau kewajiban pembayaran Uang Kuliah Tunggal (UKT).",
   },
-  { 
-    title: "TelkomselApp", 
+  {
+    title: "TelkomselApp",
     url: "https://github.com/Winzarts/TelkomselApp",
-    description: "Project UUK saya kali ini adalah sebuah aplikasi prototype berbasis Flutter yang mengimitasi antarmuka dan fungsionalitas utama aplikasi telekomunikasi populer, MyTelkomsel."
+    description:
+      "Project UUK saya kali ini adalah sebuah aplikasi prototype berbasis Flutter yang mengimitasi antarmuka dan fungsionalitas utama aplikasi telekomunikasi populer, MyTelkomsel.",
   },
-  { 
-    title: "Jelajah Nusantara", 
+  {
+    title: "Jelajah Nusantara",
     url: "https://github.com/Winzarts/JelajahNusantara",
-    description: "Jelajah Nusantara adalah aplikasi berbasis Flutter yang dirancang untuk berbagi dan menemukan artikel menarik seputar destinasi wisata di Indonesia."
+    description:
+      "Jelajah Nusantara adalah aplikasi berbasis Flutter yang dirancang untuk berbagi dan menemukan artikel menarik seputar destinasi wisata di Indonesia.",
   },
   {
     title: "WonderTrail",
     url: "https://github.com/Winzarts/WonderTrail",
-    description: "WonderTrail adalah aplikasi eksplorasi perjalanan premium yang dirancang untuk membantu pengguna menemukan destinasi menakjubkan di seluruh dunia. Dengan UI yang ramping dan transisi yang mulus"
+    description:
+      "WonderTrail adalah aplikasi eksplorasi perjalanan premium yang dirancang untuk membantu pengguna menemukan destinasi menakjubkan di seluruh dunia. Dengan UI yang ramping dan transisi yang mulus",
   },
   {
     title: "Tampilan Aplikasi Gojek",
     url: "https://github.com/Winzarts/Tampilan-Gojek",
-    description: "Project ini adalah sebuah project prototype antarmuka (UI) menggunakan Flutter. Berdasarkan aset yang digunakan, aplikasi ini menampilkan desain yang terinspirasi dari aplikasi super-app seperti Gojek"
+    description:
+      "Project ini adalah sebuah project prototype antarmuka (UI) menggunakan Flutter. Berdasarkan aset yang digunakan, aplikasi ini menampilkan desain yang terinspirasi dari aplikasi super-app seperti Gojek",
+  },
+  {
+    title: "AquaGrow",
+    url: "https://github.com/Winzarts/aquagrowApp",
+    description:
+      "Aplikasi aqua grow adalah aplikasi berbasis flutter yang dirancang untuk membantu pengguna dalam bercocok tanam hidroponik. Aplikasi ini memungkinkan pengguna untuk memantau tanaman mereka, mengatur jadwal penyiraman",
+  },
+  {
+    title: "chiperaegis",
+    url: "https://github.com/Winzarts/chiperaegis",
+    description:
+      "Membuat website dengan fitur untuk menyembunyikan pesan dan file ke dalam gambar, audio, dan berbagai format file lainnya menggunakan teknik steganografi dan enkripsi AES-GCM berbasis Python Flask",
   },
 ];
 
@@ -56,7 +76,12 @@ export function ProjectsSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
-            <ProjectCard key={project.title} title={project.title} url={project.url} description={project.description} />
+            <ProjectCard
+              key={project.title}
+              title={project.title}
+              url={project.url}
+              description={project.description}
+            />
           ))}
         </div>
       </div>
