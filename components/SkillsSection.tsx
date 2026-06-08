@@ -22,7 +22,8 @@ export function SkillsSection() {
     { title: "Backend", list: "Node.js, Flask, Express" },
     { title: "Web Scraping", list: "Selenium, BeautifulSoup" },
     { title: "Website", list: "Laravel, Next.js" },
-    { title: "Writing", list: "Technical Writing, Documentation" }
+    { title: "Writing", list: "Technical Writing, Documentation" },
+    { title: "IT Support", list: "Software & Hardware Troubleshooting, Helpdesk Support" }
   ];
 
   return (
