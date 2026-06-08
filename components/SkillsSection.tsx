@@ -23,7 +23,7 @@ export function SkillsSection() {
     { title: "Web Scraping", list: "Selenium, BeautifulSoup" },
     { title: "Website", list: "Laravel, Next.js" },
     { title: "Writing", list: "Technical Writing, Documentation" },
-    { title: "IT Support", list: "Software & Hardware Troubleshooting, Helpdesk Support" }
+    { title: "IT Support", list: "Laptop Hardware & Software Troubleshooting, OS/Software Reinstallation, Helpdesk Support" }
   ];
 
   return (
