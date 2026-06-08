@@ -22,7 +22,7 @@ export function HeroSection() {
           </div>
           
           <p className="text-foreground/70 text-base md:text-lg max-w-lg leading-relaxed">
-            Saya adalah seorang junior software engineer yang memiliki pengalaman dalam pengembangan aplikasi mobile dan web. Saya juga memiliki pengalaman dalam pengembangan backend dan web scraping.
+            Saya adalah seorang junior software engineer yang memiliki pengalaman dalam pengembangan aplikasi mobile dan web. Saya juga memiliki pengalaman dalam pengembangan backend serta IT Support Untuk membantu mengatasi masalah terkait dengan software, hardware.  
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-2">
